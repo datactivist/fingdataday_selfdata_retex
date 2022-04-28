@@ -240,7 +240,7 @@ class: inverse, middle, center
 > .quote[*"Je veux bien participer du moment qu'on ne récupère pas mes données."*]
 
 .pull-left[
-**Problématique** : la méconnaissance d'un processus phasé et multi-acteur du traitement de la donnée peut inhiber d'emblée la contribution citoyen·ne.
+**Problématique** : la méconnaissance d'un processus phasé et multi-acteur du traitement de la donnée peut inhiber d'emblée la contribution citoyenne.
 
 **Solution** : offrir des visualisations clairs des flux de données et des opérations réalisés avec les acteurs.
 ]
@@ -262,7 +262,7 @@ class: inverse, middle, center
 **Problématique** : la surcomplexification des discours techniques amène beaucoup de citoyen·nes à se poser en *"objet"* de la technique plus qu'en usager et usagère.
 
 **Solution** :
-1. détailler les briques élémentaires et les ramener à leur pure utilité fonctionnelle pour remettre ;
+1. détailler les briques élémentaires et les ramener à leur pure utilité fonctionnelle ;
 2. mettre en pratique en partageant son écran !
 ]
 
