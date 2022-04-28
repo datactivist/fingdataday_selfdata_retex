@@ -1,0 +1,381 @@
+---
+title: "Acculturer le grand public à la donnée"
+subtitle: "*retour sur l'expérience self data territorial de La Rochelle*"
+author: "Sylvain Lapoix, Datactivist"
+date: "Fing Data Day, 28/04/2022"
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: Fing data day - Retour d'expérience self data - 28/04/2022
+  slug: fingdataday_selfdata_retex
+  format: presentation
+---
+
+layout: true
+  
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'></center></span></div>")` 
+
+
+<style type="text/css">
+
+.lr_bg{
+  background: black;
+  color: #f7c600;
+  font-weight: bold;
+}
+
+.pull-left-wide {
+  width: 65%;
+  float: left;
+}
+
+.pull-right-wide {
+  width: 65%;
+  float: right;
+}
+
+.pull-right-narrow {
+  width: 30%;
+  float: right;
+}
+
+.pull-left-narrow {
+  width: 30%;
+  float: left;
+}
+
+.quote {
+  font-family: 'Rokkitt';
+  font-weight: bold;
+  font-style: italic;
+  font-size: 28px;
+}
+
+
+.yellow-h{
+  background: #ffff88;
+}
+
+.blue-h{
+  background: #83c7fc;
+}
+
+
+.white-h{
+   color: #000000;
+   background: #FFFFFF;
+}
+
+.black-h{
+   color: #FFFFFF;
+   background: #000000;
+}
+
+
+</style>
+
+
+
+---
+
+class: center, middle
+
+Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug, "/", params$format)`
+
+Sources : `r paste0("https://github.com/datactivist/", params$slug, "/", params$format)`
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+
+---
+
+class: inverse, middle, center
+
+# I. Cadre général de l'expérimentation
+
+---
+
+## Le self data : grands principes
+
+
+> .quote["la production, l’exploitation et le partage de données personnelles par les individus, sous leur contrôle et à leurs propres fins"]
+
+Deux dimensions se croisent dans cette définition :
+
+.pull-left[#### *Les opérations*
+
+* la production ;
+* l'exploitation ;
+* le partage]
+
+.pull-right[#### *Leurs modalités*
+
+* sous le contrôle des individus ;
+* à leur propre fin.]
+
+Leur objet central, **les données personnelles**, justifie les modalités évoquées :<br>il s'agit de réinvestir les usager·ères dans les data produites à leur sujet.
+
+.right[
+.caption[Source : [Kit Self Data Territorial](http://mesinfos.fing.org/implementer-le-self-data-sur-son-territoire-suivez-le-guide/), MesInfos / Fing]
+]
+
+
+---
+
+### Le self data territorial en deux mots
+
+.center[
+![](./img/self_data_gouvernance.png)
+]
+
+---
+
+### Le self data de La Rochelle
+
+
+Le self data territorial de .lr_bg[la Communuauté d'Agglomération de La Rochelle] s'inscrit dans la continuité de deux grands projets territoriaux : La Rochelle Territoire Zéro Carbone et Agremob.
+
+.pull-left-narrow[
+.center[
+**Objectif**
+
+*expérimenter avec un groupe de 500 bêtatesteurs et bêtatesteuses des outils de réappropriation des données et collecter des données scientifiques afin d'étudier les changements de comportement permis par l'information sur l'impact carbone des mobilités.*]
+]
+
+.pull-right-wide[
+.center[
+**Dispositif technique** 
+</br></br>
+![](./img/selfdatalr_outils.png)
+]
+]
+
+
+---
+
+## Notre problématique
+
+.pull-left[### Les enjeux
+1. .blue-h[**enjeu de recrutement**] : objectif de 500 bêtatesteurs et bêtatesteuses ;
+
+2. .blue-h[**enjeu d'usage**] : les volontaires doivent installer et se servir des apps ;
+
+3. .blue-h[**enjeu scientifique**] : une équipe scientifique suit les volontaires pour produire des données socio-métrologiques.
+]
+
+--
+
+.pull-right[### Les implications
+1. .yellow-h[**obligation de conviction**] : les volontaires doivent adhérer à la proposition ;
+
+2. .yellow-h[**obligation d'engagement**] : les volontaires doivent adopter les outils dans leur device et leur quotidien ;
+
+3. .yellow-h[**obligation de participation**] : les volontaires doivent consentir à partager leur ressenti.
+]
+
+---
+
+class: inverse
+
+### *... le tout armé de notions familières, accessibles et rassurantes*
+
+--
+
+.pull-left[
+![](https://media.giphy.com/media/xT5LMQ8W0ZyPOu4QJa/giphy.gif)
+]
+
+
+.pull-right[
+* tracking ;
+* RGPD ;
+* droit à la portabilité ;
+* gouvernance de la donnée ;
+* accéléromètre ;
+* inférence ;
+* modélisation carbone ;
+* collecte passive ;
+* socio-métrologie ;
+* ...
+]
+
+--
+
+Et j'oubliais un dernier détail :
+
+---
+
+background-image: url("https://media.giphy.com/media/YrZK1TSMNTNy1zhrd6/giphy.gif")
+background-size: contains
+class: inverse
+
+
+# Tout ça, c'est mon travail
+
+
+---
+
+class: inverse, middle, center
+
+# II. 5 notions clefs sur l'acculturation de données soulevées par ce projet
+
+---
+
+.center[
+### 1. Exposer le cycle de vie de la donnée
+]
+
+> .quote[*"Je veux bien participer du moment qu'on ne récupère pas mes données."*]
+
+.pull-left[
+**Problématique** : la méconnaissance d'un processus phasé et multi-acteur du traitement de la donnée peut inhiber d'emblée la contribution citoyen·ne.
+
+**Solution** : offrir des visualisations clairs des flux de données et des opérations réalisés avec les acteurs.
+]
+
+.pull-right[
+![](https://datactivist.coop/ca_larochelle_formation/formation_cheffeproj/jour02/img/cycle_ouverture_donnee.png)
+]
+
+
+---
+
+.center[
+### 2. Démystifier la technologie
+]
+
+> .quote[*"J'ai essayé mais ça n'a pas marché, je pense que c'est pas pour moi ces histoires de données !".*]
+
+.pull-left[
+**Problématique** : la surcomplexification des discours techniques amène beaucoup de citoyen·nes à se poser en *"objet"* de la technique plus qu'en usager et usagère.
+
+**Solution** :
+1. détailler les briques élémentaires et les ramener à leur pure utilité fonctionnelle pour remettre ;
+2. mettre en pratique en partageant son écran !
+]
+
+.pull-right[
+![](./img/accelerometre.png)
+]
+
+
+
+
+---
+
+.center[
+### 3. Reconnecter données et réel
+]
+
+> .quote[
+* *"Je vois pas l'intérêt de participer, je fais tous mes déplacements à vélo !"*
+* *"Je vois pas l'intérêt de participer, je peux pas me déplacer sans ma voiture !"*
+]
+
+.pull-left[
+**Problématique** : la production de données s'inscrivant souvent dans un discours techniciste, elle en vient à être décorrelée de tout enjeu ou problématique pratique.
+
+**Solution** : retracer le chemin de la donnée au réel qu'elle tente de capter et reformuler chaque terme dans ceux de l'usage et la compréhension courante.
+]
+
+.pull-right[
+![](https://carbone4.com/files/graphique_final.png)
+
+Source : [Carbone4](https://www.carbone4.com/myco2-empreinte-moyenne-evolution-methodo).
+]
+
+
+---
+
+.center[
+### 4. Proposer un contre-narratif sur la donnée
+]
+
+> .quote[*"Oui mais Waze m'évite de perdre des points de permis !"*]
+
+.pull-left[
+**Problématique** : le discours ambiant sur la donnée étant en grande partie impulsée par des entreprises pourvoyeuses de service numérique, le rapport de l'individus à la donnée en vient à être réduit à un simple rapport transactionnel.
+
+**Solution** : montrer les angles morts et les coulisses du discours "positivistes" pour souligner les enjeux et les insuffisances du discours général.
+]
+
+.pull-right[
+![](https://media.springernature.com/lw685/springer-static/image/art%3A10.1057%2Fs41599-020-0495-3/MediaObjects/41599_2020_495_Fig1_HTML.png)
+]
+
+
+---
+
+
+.center[
+### 5. Faire communauté
+]
+
+> .quote[*"Vous préférez pas vous tourner vers des spécialistes du sujet ? On fabrique des photocopieurs ici."*]
+
+
+.pull-left[
+**Problématique** : la donnée consacrée comme un sujet d'expert·es apparaît comme élitiste, lointain et inappropriable par celles et ceux qui s'autodisqualifient techniquement.
+
+**Solution** : créer une culture commune, des références, 
+]
+
+.pull-right[
+![](./img/newsletter.png)
+]
+
+
+---
+
+class: inverse, middle, center
+
+# III. Conclusion
+
+---
+
+### La nécessité de revaloriser l'objet politique "donnée"
+
+> .quote["C'est pas grave si l'app ne marche pas parfaitement du moment que l'agglo récupère mes données"]
+
+
+
+---
+
+class: inverse, center
+
+### Et si ça vous intéresse, venez, il y a encore de la place
+
+![](./img/selfdatalr_qrcode.png)
+
+---
+
+
+
+background-image: url("https://media.giphy.com/media/Pnh0Lou03fv92J4puZ/giphy.gif")
+background-size: contains
+class: inverse, center, top
+
+
+# &#10084; Merci la Fing &#10084;
+
+---
+
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [sylvain@datactivist.coop](mailto:sylvain@datactivist.coop)
+
+
