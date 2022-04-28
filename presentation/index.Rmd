@@ -145,7 +145,7 @@ Leur objet central, **les données personnelles**, justifie les modalités évoq
 ### Le self data de La Rochelle
 
 
-Le self data territorial de .lr_bg[la Communuauté d'Agglomération de La Rochelle] s'inscrit dans la continuité de deux grands projets territoriaux : La Rochelle Territoire Zéro Carbone et Agremob.
+Le self data territorial de .lr_bg[la Communauté d'Agglomération de La Rochelle] s'inscrit dans la continuité de deux grands projets territoriaux : La Rochelle Territoire Zéro Carbone et Agremob.
 
 .pull-left-narrow[
 .center[
